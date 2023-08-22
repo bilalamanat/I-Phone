@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
+    "Helvetica", "Arial", sans-serif;
+}
+
+body {
+  background-color: #000;
+  display: block;
+  font-size: 17px;
+  font-weight: 400;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+nav {
+  display: flex;
+  height: 55px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: rgba(68, 68, 71, 0.8);
+}
+
+nav ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+}
+
+nav ul li a {
+  padding: 25px;
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+  font-size: 14px;
+  font-family: inherit;
+  letter-spacing: 0.3px;
+  transition: all 0.5s;
+}
+
+nav ul li a:hover {
+  color: #bbbbbb;
+}
+
+i {
+  color: #fff;
+  padding: 16px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+i:hover {
+  color: #bbbbbb;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+}
+
+h2 {
+  color: #fff;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.link {
+  text-align: center;
+  padding: 20px;
+}
+
+.link span {
+  padding: 14px;
+}
+.link a span:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.link a {
+  color: #2997ff;
+  font-size: 21px;
+  text-decoration: none;
+}
+
+.content-main {
+  margin-top: 90px;
+}
+
+img {
+  width: 35%;
+  position: absolute;
+  top: 45%;
+  left: 33%;
+}
